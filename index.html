@@ -43,7 +43,7 @@ bubble_map.bubbles([
   
 ],{
   popupTemplate: function(geo, data) {
-    return {<div class="hoverinfo"> + data.yeild + 
+    return {data.yeild + 
 'Exploded on ' + data.date + ' by the'  + data.country + ''}
   }
 });
